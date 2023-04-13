@@ -10,8 +10,8 @@ const Navbar = () => {
   }
   return (
     <div className='fixed w-full h-20 z-[100]'>
-      <div className='flex justify-between items-center w-full h-full pt-6 px-7 2xl:px-16'>
-        <h2>Seaship.</h2>
+      <div className='flex justify-between items-center w-full h-full pt-7 px-7 2xl:px-16'>
+        <h2 className='ml-3'>Seaship.</h2>
         <div>
           <ul className='hidden md:flex'>
             <Link href='/'>
@@ -28,17 +28,17 @@ const Navbar = () => {
             </Link>
           </ul>
           <div onClick={handleNav} className='md:hidden'>
-            <IoIosArrowDropdownCircle size={30} className='mr-3'/>
+            <IoIosArrowDropdownCircle size={35} className='mr-3'/>
           </div>
         </div>
       </div>
-      <div className={nav ? 'fixed right-0 left-0 top-0 w-full h-screen bg-black/70' : ''}>
-        <div className={nav ? 'fixed right-0 left-0 top-0 w-[100%] sm:w-[45%] h-screen bg-[#F1D42E] p-10 ease-in duration-500': 'fixed top-[-100%] left-0 right-0 p-10 ease-in duration-500'}>
+      <div className={nav ? 'fixed right-0 left-0 top-0 w-full h-screen bg-black/10' : ''}>
+        <div className={nav ? 'fixed right-0 left-0 top-0 w-[100%] sm:w-[45%] h-screen bg-[#FFD854] p-10 ease-in duration-500': 'fixed top-[-100%] left-0 right-0 p-10 ease-in duration-300'}>
           <div>
             <div className='flex w-full items-center justify-between'>
               <h2>Seaship.</h2>
               <div onClick={handleNav}>
-                <IoIosArrowDropupCircle size={30}/>
+                <IoIosArrowDropupCircle size={35}/>
               </div>
             </div>
             <div className='border-black border-b-2'>
