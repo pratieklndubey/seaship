@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth !important;
+}
+
 @layer base {
   body {
     @apply bg-[#FFD854] text-black tracking-wide;
