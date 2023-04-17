@@ -75,17 +75,11 @@ const Navbar = () => {
             </ul>
             <p className='mt-10 text-center'>Give Us A Call @</p>
             <div className='flex justify-between items-center my-5 w-full'>
-              <Link href='/' className='ml-5'>
+              <Link href='tel:+919111970674' className='ml-5'>
                 <FaPhoneAlt size={50}/>
               </Link>
-              <p className='text-3xl mr-8'>91119-70674</p>
-            </div>
-            <div className='mx-9 mt-20'>
-              <p>&copy; Seaship Tour & Travels</p>
-            </div>
-            <div className='my-5 ml-6'>
-              <Link href='/'>
-                <p>Developed by Prateek Dubey</p>
+              <Link href='tel:+919111970674' className='ml-5'>
+                <p className='text-3xl mr-8'>91119-70674</p>
               </Link>
             </div>
           </div>

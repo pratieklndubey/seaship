@@ -20,7 +20,7 @@ function Hero() {
           <h3 className='sm:text-4xl text-xl text-[#0057b7] font-tilt-prism'>Hum Car Chalate Kalakaar Hain!</h3>
           <div>
             <p className='sm:text-3xl text-lg mt-5 font-itim'>
-              Let's Ride From Indore To <Typed strings={['Ujjain!', 'Maheshwar!', 'Pithampur!', 'Omkareshwar!', 'Mandav!']} typeSpeed={40} backSpeed={30} loop/>
+              Let us Ride From Indore To <Typed strings={['Ujjain!', 'Maheshwar!', 'Pithampur!', 'Omkareshwar!', 'Mandav!']} typeSpeed={40} backSpeed={30} loop/>
             </p>
           </div>
           <p className='my-5 font-itim sm:text-2xl text-xl mt-10 sm:mt-5'>
@@ -28,7 +28,9 @@ function Hero() {
             Discover the difference by booking with us today.
           </p>
           <p className='text-2xl'>Call Us On</p>
-          <p className='text-2xl'>91119-70674</p>
+          <Link href='tel:+919111970674'>
+            <p className='text-2xl'>91119-70674</p>
+          </Link>
         </div>
       </div>
     </div>
