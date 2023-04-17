@@ -1,10 +1,6 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import Navbar from '@/components/Navbar'
-
-
-const inter = Inter({ subsets: ['latin'] })
+import Hero from '@/components/Hero'
 
 export default function Home() {
   return (
@@ -16,9 +12,10 @@ export default function Home() {
         <meta name="classification" content="Tour & Travels"/>
         <meta name="language" content="English"/>
         <meta name="designer" content="Prateek Dubey"/>
-        <link rel='icon' href='/assets/travel.png'/>
+        <link rel='icon' href='/assets/taxi.png'/>
       </Head>
       <Navbar/>
+      <Hero/>
     </div>
   )
 }
