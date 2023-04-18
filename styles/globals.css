@@ -29,8 +29,4 @@ html{
   li {
     @apply cursor-pointer md:text-2xl
   }
-  
-  button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase text-black
-  }
 }

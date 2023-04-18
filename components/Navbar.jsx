@@ -79,7 +79,7 @@ const Navbar = () => {
                 <FaPhoneAlt size={50}/>
               </Link>
               <Link href='tel:+919111970674' className='ml-5'>
-                <p className='text-3xl mr-8'>91119-70674</p>
+                <p className='sm:text-3xl mr-8 text-2xl'>91119-70674</p>
               </Link>
             </div>
           </div>

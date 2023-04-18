@@ -4,8 +4,8 @@ import ContactImg from '../public/assets/taxi.png';
 
 const Contact = () => {
   return (
-    <div id='contact' className='w-full lg:h-screen my-40'>
-      <div className='max-w-[1240px] mx-auto flex flex-col items-center h-full'>
+    <div id='contact' className='w-full lg:h-screen sm:mt-96'>
+      <div className='max-w-[1240px] mx-auto flex flex-col justify-center items-center h-full'>
         <h2 className='font-tilt-prism text-[#0057b7] tracking-widest'>Connect With Us</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
@@ -83,7 +83,7 @@ const Contact = () => {
                     name='message'
                   ></textarea>
                 </div>
-                <button className='w-full p-4 mt-4'>
+                <button className='w-full p-4 mt-4 bg-black text-[#FFD854] text-2xl'>
                   Send Message
                 </button>
               </form>

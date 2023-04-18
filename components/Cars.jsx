@@ -18,8 +18,6 @@ function Cars() {
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Honda Amaze</h3>
-                            <h3>5 Seater</h3>
-                            <h3>Sedan</h3>
                             <h3>₹10.90/Km</h3>
                         </div>
                     </div>
@@ -31,8 +29,6 @@ function Cars() {
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Suzuki Dzire</h3>
-                            <h3>5 Seater</h3>
-                            <h3>Sedan</h3>
                             <h3>₹10.90/Km</h3>
                         </div>
                     </div>
@@ -44,8 +40,6 @@ function Cars() {
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Toyota Etios</h3>
-                            <h3>5 Seater</h3>
-                            <h3>Sedan</h3>
                             <h3>₹10.90/Km</h3>
                         </div>
                     </div>
@@ -57,8 +51,6 @@ function Cars() {
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Toyota Innova</h3>
-                            <h3>7 Seater</h3>
-                            <h3>MPV</h3>
                             <h3>₹13.99/Km</h3>
                         </div>
                     </div>
@@ -69,4 +61,4 @@ function Cars() {
   )
 }
 
-export default Cars
+export default Cars;

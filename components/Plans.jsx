@@ -9,7 +9,7 @@ import pithampur from '../public/assets/pithampur.jpg'
 
 function Plans() {
   return (
-    <div id='plans' className='w-full md:h-screen p-2'>
+    <div id='plans' className='w-full md:h-screen p-2 my-48'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center items-center h-full'>
             <h2 className='font-tilt-prism text-[#0057b7] tracking-widest'>Curated Packages</h2>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mt-10'>
@@ -85,4 +85,4 @@ function Plans() {
   )
 }
 
-export default Plans
+export default Plans;
