@@ -20,7 +20,8 @@ function Plans() {
                         </div>
                         <div className='flex flex-col items-center justify-center mt-5'>
                             <p>Indore Local Tour In Sedan @ ₹1599/-</p>
-                            <p>Indore Local Tour In MPV @ 2399/-</p>
+                            <p>Indore Local Tour In MPV @ ₹2399/-</p>
+                            <p>Indore Local Tour In Crysta @ ₹2699/-</p>
                         </div>
                     </div>
                 </div>
@@ -31,7 +32,8 @@ function Plans() {
                         </div>
                         <div className='flex flex-col items-center justify-center mt-5'>
                             <p>Ujjain Darshan In Sedan @ ₹2499/-</p>
-                            <p>Ujjain Darshan In MPV @ 3299/-</p>
+                            <p>Ujjain Darshan In MPV @ ₹3299/-</p>
+                            <p>Ujjain Darshan In Crysta @ ₹3799/-</p>
                         </div>
                     </div>
                 </div>
@@ -42,7 +44,8 @@ function Plans() {
                         </div>
                         <div className='flex flex-col items-center justify-center mt-5'>
                             <p>Maheshwar Darshan In Sedan @ ₹2699/-</p>
-                            <p>Maheshwar Darshan In MPV @ 3599/-</p>
+                            <p>Maheshwar Darshan In MPV @ ₹3599/-</p>
+                            <p>Maheshwar Darshan In Crysta @ ₹4099/-</p>
                         </div>
                     </div>
                 </div>
@@ -53,7 +56,8 @@ function Plans() {
                         </div>
                         <div className='flex flex-col items-center justify-center mt-5'>
                             <p>Mandu Tour In Sedan @ ₹2699/-</p>
-                            <p>Mandu Tour In MPV @ 3599/-</p>
+                            <p>Mandu Tour In MPV @ ₹3599/-</p>
+                            <p>Mandu Tour In Crysta @ ₹4099/-</p>
                         </div>
                     </div>
                 </div>
@@ -64,7 +68,8 @@ function Plans() {
                         </div>
                         <div className='flex flex-col items-center justify-center mt-5'>
                             <p>Omkareshwar Darshan In Sedan @ ₹2699/-</p>
-                            <p>Omkareshwar Darshan In MPV @ 3599/-</p>
+                            <p>Omkareshwar Darshan In MPV @ ₹3599/-</p>
+                            <p>Omkareshwar Darshan In Crysta @ ₹4099/-</p>
                         </div>
                     </div>
                 </div>
@@ -75,7 +80,8 @@ function Plans() {
                         </div>
                         <div className='flex flex-col items-center justify-center mt-5'>
                             <p>Indore To Pithampur In Sedan @ ₹2199/-</p>
-                            <p>Indore To Pithampur In MPV @ 2999/-</p>
+                            <p>Indore To Pithampur In MPV @ ₹2999/-</p>
+                            <p>Indore To Pithampur In Crysta @ ₹3499/-</p>
                         </div>
                     </div>
                 </div>
